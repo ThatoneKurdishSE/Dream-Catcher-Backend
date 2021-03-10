@@ -4,16 +4,5 @@ class DreamsController < ApplicationController
         @dreams = Dream.all
         render json: @dreams
     end
-    # def index
-    #     @dreams = Dream.all
-    #     render json: @dreams
-    # end
-    # def index
-    #     @dreams = Dream.all
-    #     render json: @dreams
-    # end
-    # def index
-    #     @dreams = Dream.all
-    #     render json: @dreams
-    # end
+    
 end
